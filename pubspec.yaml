@@ -1,0 +1,18 @@
+name: bist_ai_decision_support_system
+version: 1.0.0
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^0.13.3
+  provider: ^6.0.0
+  firebase_core: ^2.9.0
+  cloud_firestore: ^3.2.0
+  firebase_auth: ^3.3.0
+
+flutter:
+  uses-material-design: true
