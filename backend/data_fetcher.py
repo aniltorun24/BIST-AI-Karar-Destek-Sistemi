@@ -1,0 +1,1 @@
+import yfinance as yf\n\ndef fetch_bist100_data():\n    # Fetch BIST 100 data using Yahoo Finance\n    bist100_tickers = ['^XU100']  # BIST 100 index ticker\n    data = yf.download(bist100_tickers, start='2021-01-01', end='2026-03-18')\n    return data\n\nif __name__ == '__main__':\n    print(fetch_bist100_data())
